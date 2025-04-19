@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="add-product.html">Add Product</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <form id="add-product-form">
+        <input type="text" name="name" placeholder="Product Name" required /><br />
+        <textarea name="description" placeholder="Description" required></textarea><br />
+        <input type="number" name="price" placeholder="Price" required /><br />
+        <input type="text" name="image" placeholder="Image URL (optional)" /><br />
+        <button type="submit">Add Product</button>
+      </form>
+      
+
+    <div class="container" id="content">
+        <!-- Content for Add Product -->
+    </div>
+    <script src="js/add-product.js"></script>
+</body>
+</html>
